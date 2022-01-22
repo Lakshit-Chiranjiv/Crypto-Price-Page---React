@@ -1,0 +1,19 @@
+.header{
+    background-color: rgb(89, 247, 160);
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 48px;
+}
+
+.header input{
+    margin-top: 30px;
+    font-size: 18px;
+    height: 45px;
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    border-width: 0;
+}

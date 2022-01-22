@@ -1,0 +1,38 @@
+.coincard{
+    height: 200px;
+    /* width: 180px; */
+    padding: 15px;
+    background-color: rgb(162, 247, 191);
+    border-radius: 12px;
+    border-width: 0;
+    color: rgb(0, 0, 0);
+}
+
+.coincard:hover{
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+
+.coincard img{
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height: auto;
+}
+
+.coincard p{
+    padding: 6px;
+    border-radius: 4px;
+    border-width: 0;
+    display: inline-block;
+    margin-top: 7px;
+    color: white;
+}
+
+.coincard p.red{
+    background-color: red;
+}
+
+.coincard p.green{
+    background-color: green;
+}
